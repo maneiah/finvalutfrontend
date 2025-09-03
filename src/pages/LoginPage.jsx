@@ -115,13 +115,14 @@ export default function LoginPage() {
         </form>
 
         <Typography variant="body2" textAlign="center" mt={2}>
-          New user?{" "}
+          New User ?{" "}
           <Link
             href="/register"
             underline="hover"
             sx={{
               color: "#1976d2",
               fontWeight: "bold",
+              textDecorationLine: "none",
               "&:hover": { color: "#0d47a1" },
             }}
           >
